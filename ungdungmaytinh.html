@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<from>
+    <input type="number" name="so_1" id="so_1">
+    <input type="number" name="so_2" id="so_2">
+</from>
+<script>
+    function tong() {
+        var a = document.getElementById("so_1").value;
+        var b = document.getElementById("so_2").value;
+        var c = -(a-b);
+        alert('Tổng = '+c);
+    }
+    funciton tru(){
+        var a = document.getElementById("so_1").value;
+        var b = document.getElementById("so_2").value;
+        var f = a/b;
+        alert('Kết quả: '+f);
+    }
+</script>
+<button type="button" onclick="tong()">Addition(+)</button>
+<button type="button" onclick="tru()">Subtration(-)</button>
+<button type="button" onclick="tich()">Multiplication(*)</button>
+<button type="button" onclick="chia()">Division(/)</button>
+</body>
+</html>
